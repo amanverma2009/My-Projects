@@ -22,4 +22,4 @@ elif Input_Operator == "*":
 elif Input_Operator == "/":
     print("The Result Of The Operation Is:", Input_Number1/Input_Number2)
 else:
-    print("Something Went Wrong(Maybe You Typed The Wrong Operator.)")
+    print("Something Went Wrong(Maybe You Typed The Wrong Operator)")
