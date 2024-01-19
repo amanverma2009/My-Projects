@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+@media only screen and (max-width:600px){
+  .tv .mobile{
+    display: flex;
+    flex-direction: column;
+  }
+}
+nav{
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/594f8025-139a-4a35-b58d-4ecf8fdc507c/d3c4e455-f0bf-4003-b7cd-511dda6da82a/IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.uppernav {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+  padding: 15px;
+  position: absolute;
+}
+nav svg {
+  width: 11%;
+  height: 6%;
+  margin-top: 15px;
+  margin-left: 163px;
+  fill: rgb(229, 9, 20);
+}
+.language-selector {
+  display: inline;
+  color: white;
+  padding-left: 19px;
+  justify-content: center;
+  align-items: center;
+  width: 109px;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: rgba(22, 22, 22, 0.7);;
+  font-weight: 550;
+}
+.language-selector option {
+  border: none;
+  display: flex;
+  background: white;
+  color: black;
+  justify-content: center;
+}
+.btn {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 15px;
+  height: 2rem;
+  font-weight: 600;
+  text-align: center;
+  width: 7vw;
+}
+.uppernav button {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 5vw;
+  height: 5vh;
+}
+.navmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.navmain h1 {
+  font-size: 50px;
+  margin: 10px;
+  font-weight: 900;
+  text-align: center;
+}
+.navmain h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.navmain h4 {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 490;
+  text-align: center;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email input {
+  font-size: 15px;
+  background-color: rgba(22, 22, 22, 0.7);
+  color: white;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 10px 1px;
+  height: 7vh;
+  width: 24vw;
+}
+.email ::placeholder {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 490;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: gray;
+  border: none;
+}
+.email button {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  height: 8.5vh;
+  width: 13vw;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px 1px;
+}
+.navmain button:hover {
+  background-color: rgb(171, 9, 9);
+}
+
+.underline {
+  height: 8px;
+  background-color: #232323;
+}
+.tv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: auto;
+  height: 80vh;
+}
+.tv-text {
+  margin-left: 11vw;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.tv-text h2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.tv-text p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.tv-div {
+  position: relative;
+}
+.tv-div img {
+  position: relative;
+  z-index: 1;
+}
+.tv-div video {
+  position: absolute;
+  top: 98px;
+  right: 78px;
+}
+.watch-div {
+  position: relative;
+  height: 80vh;
+}
+.watch-div img {
+  position: relative;
+  z-index: 1;
+}
+.watch {
+  position: absolute;
+  top: 55px;
+  right: 126px;
+  width: 404px;
+}
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: auto;
+  height: 80vh;
+}
+.mobile-image {
+  position: relative;
+}
+.download-banner {
+  padding: 0.5rem 0.75rem;
+  color: white;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 60%;
+  min-width: 15rem;
+  padding: 0.25rem 0.65rem;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+  border-radius: 0.75rem;
+}
+.download-text {
+  margin: 3vh;
+}
+.download-text-1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+}
+.download-text-2 {
+  font-weight: 400;
+  color: #0071eb;
+}
+.mobile-download-animation {
+  float: right;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 3.5vw;
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: -2px;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.kid-div {
+  margin-left: 212px;
+}
+.faq {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: auto;
+}
+.faq-text h2 {
+  color: white;
+  font-size: 3.79rem;
+  margin: 60px 0px 30px 0px;
+  font-weight: 900;
+  text-align: center;
+}
+.faqbox svg {
+  fill: white;
+  margin-right: 40px;
+}
+.faqbox {
+  position: sticky;
+  height: 12vh;
+  margin-bottom: 1.5vh;
+  width: 76vw;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+}
+.faqbox span {
+  font-size: 32px;
+  font-weight: 450;
+  margin-left: 40px;
+}
+.faqbox:hover {
+  cursor: pointer;
+  background-color: #414141;
+}
+.faq-text h3{
+  /* font-size: 1.5rem; */
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 6vh;
+}
+.p{
+  width: 76vw;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.p input{
+  font-size: 15px;
+  height: 7vh;
+  width: 26vw;
+  background-color: rgba(22, 22, 22, 0.7);
+  color: white;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 10px 1px;
+}
+.p ::placeholder{
+  font-size: 15px;
+  color: gray;
+  border: none;
+}
+.faq-email{
+  margin-top: 20px;
+  margin-bottom: 9vh;
+}
+footer {
+  background-color: black;
+  color: #0071eb;
+}
+footer .top{
+  color: rgba(255,255,255,0.7);
+  width: 77vw;
+  margin: auto;
+  padding: 9vh 0 0 0;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+footer .top a{
+  color: rgba(255,255,255,0.7);
+}
+.links{
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 2rem 0 0;
+  width: 77vw;
+  margin: auto;
+  color: rgba(255,255,255,0.7);
+  margin-top: 3vh;
+  font-size: 1rem;
+}
+.links a{
+  color: rgba(255,255,255,0.7);
+  /* text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 400; */
+}
+.footer-ls{
+  /* margin-left: 8.6vw; */
+  /* margin-top: 3vh; */
+  width: 78.9vw;
+  margin: auto;
+  padding-top: 2vh;
+} 
+footer p{
+  color: gray;
+  /* margin-left: 9.2vw; */
+  width: 77vw;
+  margin: auto;
+  padding-top: 2vh;
+  padding-bottom: 10vh;
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo svg {
+  width: 11%;
+  height: 6%;
+  margin-top: 22px;
+  margin-left: 45.5px;
+  fill: rgb(229, 9, 20);
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 90vh;
+  width: 29.5vw;
+  margin: auto;
+  margin-top: 2.5vh;
+  border-radius: 5px;
+  margin-bottom: 15vh;
+}
+.box h1 {
+  font-size: 32px;
+  padding-top: 9vh;
+  padding-left: 4.7vw;
+  color: white;
+  font-weight: 500;
+}
+.input {
+  margin-top: 5vh;
+  margin-left: 4.7vw;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+}
+.form :nth-child(2) {
+  margin-top: 2vh;
+}
+.button {
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  width: 21.2vw;
+  height: 7vh;
+  margin-top: 6vh;
+  margin-left: 4.7vw;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.remember {
+  color: #b3b3b3;
+  width: 20vw;
+  margin: auto;
+  font-size: 13px;
+  margin-top: 2vh;
+}
+.remember a {
+  color: #b3b3b3;
+  float: right;
+}
+#remember label {
+  color: #b3b3b3;
+  float: left;
+}
+.signup {
+  color: #b3b3b3;
+  width: 20vw;
+  margin: auto;
+  margin-top: 9.4vh;
+}
+.signup a {
+  color: white;
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.reCAPTCHA p {
+  color: #b3b3b3;
+  font-size: 14px;
+  width: 20vw;
+  margin: auto;
+  padding-top: 2vh;
+}
+.reCAPTCHA p span {
+  color: #0071eb;
+  font-size: 14px;
+  cursor: pointer;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #b3b3b3;
+}
+footer a {
+  color: #b3b3b3;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.footer-top {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  width: 64vw;
+  margin: auto;
+}
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  width: 64vw;
+  margin: auto;
+  font-size: 13px;
+}
+.language{
+    width: 64vw;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 6vh;
+}
+.language-selector{
+    height: 6vh;
+    width: 7.5vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #b3b3b3;
+}
