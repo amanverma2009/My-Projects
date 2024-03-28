@@ -3,4 +3,3 @@ Welcome to my coding repository! Here, you'll find a collection of projects that
 # About Me - 
 Name: Aman Verma
 Email: amanverma4172@gmail.com
-Interests: Programming, Music, Gaming
